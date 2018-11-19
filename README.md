@@ -21,7 +21,7 @@ void TreetoString(string &str)
 ```
 str = to_string(treenode->val)
 ```
-5、数组中添加数据
+5、数组中添加数据 push_back()
 ```
 vector<int> res;
 int value;
