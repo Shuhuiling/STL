@@ -13,7 +13,7 @@ if(str1.find(str2) != string::npos){
             return false;
         }
 ```
-3、字符串的形参表示 
+3、字符串、数组的形参表示 都要加&
 ```
 void TreetoString(string &str)
 ```
@@ -26,4 +26,11 @@ str = to_string(treenode->val)
 vector<int> res;
 int value;
 res.push_back(value);
+```
+6、数组中弹出数据 pop_back()
+7、获取数组的最后一个数据 .back()
+```
+int res=A.back();
+       
+A.pop_back();
 ```
