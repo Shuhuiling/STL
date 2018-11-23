@@ -34,3 +34,11 @@ int res=A.back();
        
 A.pop_back();
 ```
+8、构建链表的2种方式
+```
+ListNode* oneNode = new ListNode(0);
+```
+```
+ListNode smallValue(0);
+ListNode* left = &smallValue;
+```
