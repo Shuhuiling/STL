@@ -42,3 +42,8 @@ ListNode* oneNode = new ListNode(0);
 ListNode smallValue(0);
 ListNode* left = &smallValue;
 ```
+9、返回链表的头结点
+按照8的第二种方式构建：
+```
+return smallValue.next;
+```
