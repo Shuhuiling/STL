@@ -45,5 +45,10 @@ ListNode* left = &smallValue;
 9、返回链表的头结点
 按照8的第二种方式构建：
 ```
-return smallValue.next;
+return smallValue.next;(left指向表头结点)
+```
+10、定义堆栈
+```
+stack<TreeNode*> stk;
+存放二叉树节点类型的堆栈
 ```
