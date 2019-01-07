@@ -27,7 +27,7 @@ vector<int> res;
 int value;
 res.push_back(value);
 ```
-6、数组的长度 res.size()
+6、数组的长度 res.size()    
 7、获取数组的最后一个数据 .back()
 ```
 int res=A.back();
