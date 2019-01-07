@@ -21,13 +21,13 @@ void TreetoString(string &str)
 ```
 str = to_string(treenode->val)
 ```
-5、数组中添加数据 push_back()
+5、数组中添加数据 push_back()，弹出数据 pop_back()
 ```
 vector<int> res;
 int value;
 res.push_back(value);
 ```
-6、数组中弹出数据 pop_back()
+6、数组的长度 res.size()
 7、获取数组的最后一个数据 .back()
 ```
 int res=A.back();
