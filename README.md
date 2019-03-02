@@ -52,3 +52,9 @@ return smallValue.next;(left指向表头结点)
 stack<TreeNode*> stk;
 存放二叉树节点类型的堆栈
 ```
+11、报错的关键词
+```
+assigning 赋值
+incompatible 不兼容
+take address 取地址
+```
