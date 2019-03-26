@@ -58,3 +58,7 @@ assigning 赋值
 incompatible 不兼容
 take address 取地址
 ```
+12、map
+```
+map<char,int> mp; char类型到int型的映射
+```
