@@ -62,3 +62,16 @@ take address 取地址
 ```
 map<char,int> mp; char类型到int型的映射
 ```
+13、输入输出
+```
+#include<iostream>
+输入： cin>>ch>>a>>stu[i];
+输出：cout<<stu[i]<<","<<a<<endl;
+```
+14、头文件
+```
+#include<iostream>
+#include<algorithm>
+#include<vector>
+#include<string>
+```
