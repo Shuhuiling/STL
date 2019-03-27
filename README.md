@@ -75,3 +75,11 @@ map<char,int> mp; char类型到int型的映射
 #include<vector>
 #include<string>
 ```
+15、sort
+```
+a[1,2,3,4,5]
+左闭右开
+sort(a.begin(),a.end(),cmp); // 【0,5)位置排序
+*max_element(a,a+5); // 【0,5)位置求max
+*min_element(a,a+5);
+```
