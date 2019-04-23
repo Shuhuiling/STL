@@ -83,3 +83,7 @@ sort(a.begin(),a.end(),cmp); // 【0,5)位置排序
 *max_element(a,a+5); // 【0,5)位置求max
 *min_element(a,a+5);
 ```
+16、动态数组
+```
+int *p = new int[n];//相当于一个n个int元素的数组，
+```
