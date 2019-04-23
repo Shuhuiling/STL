@@ -92,3 +92,7 @@ int *p = new int[n];//相当于一个n个int元素的数组，
 string s;
 getline(cin,s);
 ```
+18、防止数组溢出
+```
+vector<unsigned long long> dp(N);
+```
