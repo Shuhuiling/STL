@@ -87,3 +87,8 @@ sort(a.begin(),a.end(),cmp); // 【0,5)位置排序
 ```
 int *p = new int[n];//相当于一个n个int元素的数组，
 ```
+17、输入带空格的字符串
+```
+string s;
+getline(cin,s);
+```
