@@ -92,7 +92,7 @@ int *p = new int[n];//相当于一个n个int元素的数组，
 string s;
 getline(cin,s);
 ```
-18、接收一个字符串 可以接收空格并输出
+18、接收多个字符串 以空格隔开 并输出
 ```
 char m[20];
 cin.getline(m,5);
@@ -101,6 +101,11 @@ cout<<m<<endl;
 输入：jkljkljkl
 输出：jklj
 接收5个字符到m中，其中最后一个为'\0'，所以只看到4个字符输出；
+
+若连续输入多组数据
+while(cin.getline(a,100)){
+            
+}
 ```
 19、防止数组溢出
 ```
