@@ -111,3 +111,11 @@ while(cin.getline(a,100)){
 ```
 vector<unsigned long long> dp(N);
 ```
+20、vector二维数组
+```
+vector<vector<int>> temp(2, vector<int>(4)); // 定义了2行,4列的二维数组
+ 
+取值方式temp[i][j]
+
+isExist(vector<vector<int>> &temp)
+```
