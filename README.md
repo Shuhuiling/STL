@@ -119,3 +119,7 @@ vector<vector<int>> temp(2, vector<int>(4)); // 定义了2行,4列的二维数�
 
 isExist(vector<vector<int>> &temp)
 ```
+21、字符串的截取
+```
+s.substr(start,len)
+```
