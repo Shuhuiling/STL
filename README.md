@@ -123,3 +123,9 @@ isExist(vector<vector<int>> &temp)
 ```
 s.substr(start,len)
 ```
+22、find函数
+```
+record.find( nums[i] )  == record.end() 是没有找到nums[i]这个元素；
+record.find( nums[i] )  ！= record.end() 是找到了这个元素。
+而record.end()是一个特殊的迭代器，如果record里没有nums[i]，最终就会指向record.end()
+```
